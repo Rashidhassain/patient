@@ -1,0 +1,69 @@
+mat-card {
+    width: 100%;
+    padding: 12px;
+}
+
+.user {
+    font-family: sans-serif;
+}
+
+button {
+    outline: none;
+    // border-radius: 18px;
+}
+
+.example-card {
+    max-width: 400px;
+    // border-radius: 22px;
+    margin: 3px;
+    box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+}
+
+.example-form {
+    min-width: 100px;
+    // max-width: 400px;
+    width: 100%;
+}
+
+.example-full-width {
+    width: 100%;
+}
+
+table {
+    width: 100%;
+}
+
+mat-icon {
+    cursor: pointer;
+    font-size: 1rem;
+    outline: none;
+}
+
+.maincard {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    // border-radius: 22px;
+}
+
+.maincard:hover {
+    box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+    transform: translateY(-1px);
+    transition: 0.6s;
+}
+
+.adduser {
+    float: right;
+}
+
+.zsoonimg {
+    border-radius: 50%;
+}
+
+input.example-right-align::-webkit-outer-spin-button,
+input.example-right-align::-webkit-inner-spin-button {
+    display: none;
+}
+
+.example-full-width .mat-input-element {
+    background-color: transparent;
+    /* Set the background color to transparent */
+}

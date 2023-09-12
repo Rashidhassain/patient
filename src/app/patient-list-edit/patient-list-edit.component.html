@@ -1,0 +1,63 @@
+<mat-card class="maincard col-lg-7 mx-auto mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h4 style="font-family: sans-serif;">Edit Details</h4>
+            </div>
+        </div>
+        <div class="row mt-2">
+            <div class="col-12 col-md-6">
+                <form class="example-form">
+                    <mat-form-field class="example-full-width" appearance="outline">
+                        <mat-label>First Name</mat-label>
+
+                        <input matInput placeholder="Enter The First Name" name="firstName" type="text" />
+
+
+
+                    </mat-form-field>
+                </form>
+            </div>
+            <div class="col-12 col-md-6">
+                <form class="example-form">
+                    <mat-form-field class="example-full-width" appearance="outline">
+                        <mat-label>Last Name</mat-label>
+
+                        <input matInput placeholder="Enter The Last Name" name="lastName" type="text" />
+
+
+
+                    </mat-form-field>
+                </form>
+            </div>
+        </div>
+        <!-- 2nd row -->
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <form class="example-form">
+
+                </form>
+            </div>
+
+        </div>
+
+
+        <!-- 2nd row ends -->
+
+
+        <!-- ------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+
+
+
+        <!-- {{EMAIL}} -->
+
+        <div class="text-right">
+            <button color="primary" class="m-1" mat-raised-button (click)="SubmitUsers()">
+                Save
+            </button>
+
+            <button mat-raised-button color="warn" (click)="Cancel()" routerLink="/patient-list">Close</button>
+        </div>
+    </div>
+</mat-card>
